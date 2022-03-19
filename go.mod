@@ -1,4 +1,4 @@
-module github.com/go-git/go-git/v5
+module github.com/smallcase/go-git/v5
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7

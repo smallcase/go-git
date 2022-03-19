@@ -4,9 +4,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/utils/diff"
+	"github.com/smallcase/go-git/v5/plumbing"
+	"github.com/smallcase/go-git/v5/plumbing/object"
+	"github.com/smallcase/go-git/v5/utils/diff"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
