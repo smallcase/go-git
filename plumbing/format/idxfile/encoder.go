@@ -5,7 +5,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/go-git/go-git/v5/utils/binary"
+	"github.com/smallcase/go-git/v5/utils/binary"
 )
 
 // Encoder writes MemoryIndex structs to an output stream.

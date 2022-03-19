@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/internal/common"
+	"github.com/smallcase/go-git/v5/plumbing/transport"
+	"github.com/smallcase/go-git/v5/plumbing/transport/internal/common"
 
 	"github.com/kevinburke/ssh_config"
 	"golang.org/x/crypto/ssh"

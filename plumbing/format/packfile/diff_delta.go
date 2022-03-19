@@ -3,8 +3,8 @@ package packfile
 import (
 	"bytes"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/smallcase/go-git/v5/plumbing"
+	"github.com/smallcase/go-git/v5/utils/ioutil"
 )
 
 // See https://github.com/jelmer/dulwich/blob/master/dulwich/pack.py and

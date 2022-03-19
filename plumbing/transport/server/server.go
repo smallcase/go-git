@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v5/plumbing/revlist"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/smallcase/go-git/v5/plumbing"
+	"github.com/smallcase/go-git/v5/plumbing/format/packfile"
+	"github.com/smallcase/go-git/v5/plumbing/protocol/packp"
+	"github.com/smallcase/go-git/v5/plumbing/protocol/packp/capability"
+	"github.com/smallcase/go-git/v5/plumbing/revlist"
+	"github.com/smallcase/go-git/v5/plumbing/storer"
+	"github.com/smallcase/go-git/v5/plumbing/transport"
+	"github.com/smallcase/go-git/v5/utils/ioutil"
 )
 
 var DefaultServer = NewServer(DefaultLoader)

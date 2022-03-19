@@ -4,14 +4,14 @@ import (
 	"sort"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
+	"github.com/smallcase/go-git/v5/plumbing"
+	"github.com/smallcase/go-git/v5/plumbing/cache"
+	"github.com/smallcase/go-git/v5/plumbing/filemode"
+	"github.com/smallcase/go-git/v5/plumbing/format/packfile"
+	"github.com/smallcase/go-git/v5/plumbing/storer"
+	"github.com/smallcase/go-git/v5/storage/filesystem"
+	"github.com/smallcase/go-git/v5/storage/memory"
+	"github.com/smallcase/go-git/v5/utils/merkletrie"
 
 	. "gopkg.in/check.v1"
 )
